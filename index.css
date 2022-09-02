@@ -133,6 +133,7 @@ body{
     font-size: 12px;
     color: #ffff;
     font-weight: 600;
+    letter-spacing: 0.5px;
     padding: 10px;
     background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
     border-radius: 17.5px;
@@ -206,4 +207,107 @@ body{
 }
 .categoryBatidos{
     background-image: url(./img/batidukisBlur.png);
+}
+
+.popular{
+    margin-top: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.popular h1{
+    width: 100%;
+    font-size: 22px;
+    font-weight: 500;
+}
+.popularContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.popularBox{
+    padding-top: 10px;
+    width: 272px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #252525;
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+    border-radius: 15px;
+}
+.popularFooter{
+    width: 237px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popularBox img{
+    width: 237px;
+    height: 97px;
+}
+.popularBox h2{
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.popularBox h3{
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.3;
+}
+.popularFooter h4{
+    font-size: 19px;
+    font-weight: 700;
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.popularFooter button{
+    font-family: montserrat;
+    font-size: 12px;
+    color: #ffff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 10px;
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+    border-radius: 17.5px;
+    border-style: none;
+}
+.footerMenu{
+    margin-top: 100px;
+    width: 100%;
+}
+.footerMenu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+footer i{
+    color: #e73f2e;
+}
+
+footer p span{
+    font-weight: 700;
 }
