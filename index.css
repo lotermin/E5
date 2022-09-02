@@ -79,6 +79,7 @@ body{
 }
 
 .today{
+    margin-top: 50px;
     width: 90%;
     display: flex;
     justify-content:center;
@@ -136,4 +137,73 @@ body{
     background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
     border-radius: 17.5px;
     border-style: none;
+}
+
+.category{
+    margin-top: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.category h1{
+    width: 100%;
+    font-weight: 800;
+    font-size: 15px;
+}
+.categoryContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.categoryBox{
+    width: 147px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #252525;
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+    border-radius: 15px;
+}
+.categoryBox img{
+    border-radius: 15px;
+    padding: 10px;
+    width: 71px;
+    background-repeat: no-repeat;
+}
+.categoryBox h3{
+    font-size: 15px;
+    font-weight: 400;
+}
+.categoryBox span{
+    width: 24px;
+    height: 4px;
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+    border-radius: 15px;
+}
+.categoryPizzas{
+    background-image: url(./img/pizzasBlur.png);
+}
+.categoryBurguer{
+    background-image: url(./img/burguerBlur.png);
+}
+.categoryPapas{
+    background-image: url(./img/papasBlur.png);
+}
+.categoryIndividuales{
+    background-image: url(./img/individualesBlur.png);
+}
+.categoryWraps{
+    background-image: url(./img/wrapsBlur.png);
+}
+.categoryMexican{
+    background-image: url(./img/tacoBlur.png);
+}
+.categoryBatidos{
+    background-image: url(./img/batidukisBlur.png);
 }
