@@ -341,4 +341,9 @@ footer p span{
     .heroImage img{
         width: 100%;
     }
+    .footerMenu ul{
+        gap: 10px;
+        font-size: 14px;
+        font-weight: 400;
+    }
 }
