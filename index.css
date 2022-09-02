@@ -159,6 +159,7 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    gap: 10px;
 }
 .categoryBox{
     width: 147px;
@@ -310,4 +311,34 @@ footer i{
 
 footer p span{
     font-weight: 700;
+}
+
+@media (max-width: 500px){
+    .hero{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    .textHero{
+        width: 100%;
+    }
+    .textHero h1{
+        font-size: 42px;
+        font-weight: 500;
+    }
+    .textHero h3{
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .textHero h5{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .heroImage{
+        width: 100%;
+    }
+    .heroImage img{
+        width: 100%;
+    }
 }
